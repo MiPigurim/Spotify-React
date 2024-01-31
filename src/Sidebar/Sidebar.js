@@ -26,6 +26,28 @@ const Sidebar = () => {
     </nav>
 
 
+    <div className="library">
+      <div className="library__content">
+        <button className="library__button">Sua Biblioteca</button>
+      </div>
+
+      <section className="section-playlist">
+        <div className="section-playlist__content">
+          <span className="text title">Crie sua primeira playlist.</span>
+          <span className="text subtitle">É fácil, vamos ajudar!</span>
+          <button className="section-playlist__button">Criar playlist</button>
+        </div>
+        
+      </section>
+
+      <div className="cookies">Cookies</div>
+
+      <div className="languages">
+        <button className="languages__button">
+          <span>Português do Brasil</span>
+        </button>
+      </div>
+    </div>
    
     </div>
   )
