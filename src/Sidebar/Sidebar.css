@@ -1,3 +1,4 @@
+/* INÍCIO DO NAV */
 .sidebar {
   display: block;
   position: fixed;
@@ -38,5 +39,91 @@
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  
 }
+/* FIM DO NAV */
+
+/* INÍCIO DA BIBLIOTECA */
+.library {
+  background-color: #121212;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4px 8px;
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 10px;
+}
+
+.library .library__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.library .library__button {
+  display: flex;
+  margin-right: 10px;
+  color: #b3b3b3;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  padding: 20px 10px;
+}
+
+.section-playlist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #242424;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 8px 0;
+  padding: 16px 20px;
+  border-radius: 10px;
+  font-family: 'source sans pro', sans-serif;
+}
+
+.section-playlist .section-playlist__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-playlist__content .text {
+  padding-bottom: 14px;
+  color: #fff;
+}
+
+.section-playlist__content .title {
+  font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
+  padding: 10px;
+  margin-top: 12px;
+  border: 0;
+  width: 113px;
+}
+/* FIM DA BIBLIOTECA */
