@@ -40,7 +40,9 @@ const Sidebar = () => {
         
       </section>
 
-      <div className="cookies">Cookies</div>
+      <div className="cookies">
+        <a href="">Cookies</a>
+      </div>
 
       <div className="languages">
         <button className="languages__button">
