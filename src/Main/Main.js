@@ -77,6 +77,31 @@ const Main = () => {
             <img className="cards card10" src={card10} alt="" />
             <span>Boas Festas</span>
           </a>
+          
+          <a href="" className="cards">
+            <img className="cards card11" src={card11} alt="" />
+            <span>Boas Festas</span>
+          </a>
+          
+          <a href="" className="cards">
+            <img className="cards card12" src={card12} alt="" />
+            <span>Boas Festas</span>
+          </a>
+          
+          <a href="" className="cards">
+            <img className="cards card13" src={card13} alt="" />
+            <span>Boas Festas</span>
+          </a>
+          
+          <a href="" className="cards">
+            <img className="cards card14" src={card14} alt="" />
+            <span>Boas Festas</span>
+          </a>
+          
+          <a href="" className="cards">
+            <img className="cards card15" src={card15} alt="" />
+            <span>Boas Festas</span>
+          </a>
 
 
         </section>
