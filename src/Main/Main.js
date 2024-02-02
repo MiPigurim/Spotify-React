@@ -20,6 +20,7 @@ import card15 from "../assets/playlist/15.jpeg"
 const Main = () => {
   return (
   <div className="main">
+    <div id="result-playlists">
     <div className="greeting">
       <h1>Boas Vindas</h1>
       <h2>Navegar por todas as seções</h2>
@@ -28,85 +29,117 @@ const Main = () => {
     <div className="offer__scroll-container">
       <div className="offer__list">
         <section className="offer__list-item">
+
           <a href="" className="cards">
-            <img className="cards card1" src={card1} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card1">
+              <img className="cards card2" src={card1} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card2" src={card2} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card2">
+              <img className="cards card2" src={card2} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card3" src={card3} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card3">
+              <img className="cards card3" src={card3} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card4" src={card4} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card4">
+              <img className="cards card4" src={card4} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card5" src={card5} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card5">
+              <img className="cards card5" src={card5} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card6" src={card6} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card6">
+              <img className="cards card6" src={card6} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card7" src={card7} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card7">
+              <img className="cards card7" src={card7} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card8" src={card8} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card8">
+              <img className="cards card8" src={card8} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card9" src={card9} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card9">
+              <img className="cards card9" src={card9} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
           <a href="" className="cards">
-            <img className="cards card10" src={card10} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card10">
+              <img className="cards card10" src={card10} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
           
           <a href="" className="cards">
-            <img className="cards card11" src={card11} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card11">
+              <img className="cards card11" src={card11} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
           
           <a href="" className="cards">
-            <img className="cards card12" src={card12} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card12">
+              <img className="cards card12" src={card12} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
           
           <a href="" className="cards">
-            <img className="cards card13" src={card13} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card13">
+              <img className="cards card13" src={card13} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
           
           <a href="" className="cards">
-            <img className="cards card14" src={card14} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card14">
+              <img className="cards card14" src={card14} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
           
           <a href="" className="cards">
-            <img className="cards card15" src={card15} alt="" />
-            <span>Boas Festas</span>
+            <div className="cards card15">
+              <img className="cards card15" src={card15} alt="" />
+              <span>Boas Festas</span>
+            </div>
           </a>
 
 
         </section>
       </div>
 
+    </div>
     </div>
   </div> 
 )};
