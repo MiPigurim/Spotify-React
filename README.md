@@ -1,4 +1,4 @@
-<h1 align="center"> FocusTime </h1>
+<h1 align="center"> Spotify - React </h1>
 
 <p align="center">
 Projeto promovido pela Alura na Imersão front-end para ensino de tecnologias WEB, usando HTML, CSS, lógica de programação em JavaScript e React
